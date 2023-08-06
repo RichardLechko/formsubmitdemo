@@ -1,0 +1,250 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .text-zone-2 p {
+    line-height: 1.5;
+  }
+
+  .text-zone3 p {
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+  }
+
+  .text-zone h1 {
+    font-size: 6.3rem;
+    line-height: 85px;
+    letter-spacing: -6px;
+  }
+
+  .text-zone img {
+    width: 50px;
+    height: 72px;
+  }
+  .text-zone .gray-text {
+    font-size: 1rem;
+  }
+
+  .text-zone-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #header {
+    font-size: 2.5rem;
+  }
+  .text-zone-2 p {
+    width: 700px;
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+
+  .text-zone3 #header {
+    width: 500px;
+    font-size: 3rem;
+  }
+  .text-zone3 p {
+    width: 400px;
+  }
+  
+  .card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+  }
+
+/************** BACK TO HOME BUTTON ****************/
+/************** BACK TO HOME BUTTON ****************/
+/************** BACK TO HOME BUTTON ****************/
+
+  .scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+  }
+
+  
+
+  .scrollTop:hover{
+    background-color: #f7f7f7;
+    color: #000;
+  }
+
+/************ UTILITY ***********/
+/************ UTILITY ***********/
+/************ UTILITY ***********/
+
+.u-mb-small {
+    margin-bottom: 1.6rem;
+}
+
+.u-mb-medium {
+    margin-bottom: 3rem;
+}
+
+.u-mb-large {
+    margin-bottom: 5rem;
+}
+
+/************ TEXT SIZES **************/
+/************ TEXT SIZES **************/
+/************ TEXT SIZES **************/
+
+.sm {
+    font-size: 1rem;
+  }
+  
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/************ MARGIN *************/
+/************ MARGIN *************/
+/************ MARGIN *************/
+
+.my-1 {
+    margin: 1rem 0;
+  }
+  
+  .my-2 {
+    margin: 1.5rem 0;
+  }
+  
+  .my-3 {
+    margin: 2rem 0;
+  }
+  
+  .my-4 {
+    margin: 3rem 0;
+  }
+  
+  .my-5 {
+    margin: 4rem 0;
+  }
+  
+  .m-1 {
+    margin: 1rem;
+  }
+  
+  .m-2 {
+    margin: 1.5rem;
+  }
+  
+  .m-3 {
+    margin: 2rem;
+  }
+  
+  .m-4 {
+    margin: 3rem;
+  }
+  
+  .m-5 {
+    margin: 4rem;
+  }
+  
+/********** PADDING ***********/
+/********** PADDING ***********/
+/********** PADDING ***********/
+
+  .py-1 {
+    padding: 1rem 0;
+  }
+  
+  .py-2 {
+    padding: 1.5rem 0;
+  }
+  
+  .py-3 {
+    padding: 2rem 0;
+  }
+  
+  .py-4 {
+    padding: 3rem 0;
+  }
+  
+  .py-5 {
+    padding: 4rem 0;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+  .p-2 {
+    padding: 1.5rem;
+  }
+  
+  .p-3 {
+    padding: 2rem;
+  }
+  
+  .p-4 {
+    padding: 3rem;
+  }
+  
+  .p-5 {
+    padding: 4rem;
+  }
+
+/****** BOXES ********/
+/****** BOXES ********/
+/****** BOXES ********/
+
+.box-2 {
+    margin-top: 4%;
+}
+
+.box-3 {
+    margin-top: 8%;
+}
+
+/******* BACKGROUND *********/
+/******* BACKGROUND *********/
+/******* BACKGROUND *********/
+
+.bg-dark {
+  background-color: #002240;
+  color: #fff;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #8a8484;;
+  -webkit-text-fill-color: #8a8484;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
