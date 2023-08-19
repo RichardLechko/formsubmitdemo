@@ -518,3 +518,7 @@ textarea {
 .fa-spotify:hover {
   color: green;
 }
+
+.fa-soundcloud:hover {
+  color: #ff8800;
+}
