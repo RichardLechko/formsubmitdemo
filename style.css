@@ -370,7 +370,7 @@ textarea {
   z-index: 1;
 }
 
-.technical-skills .card {
+.technical-skills .card, .technical-skills .card-pandas {
   text-align: center;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in;
@@ -378,14 +378,15 @@ textarea {
   padding-bottom: 5px;
 }
 
-.technical-skills .card h4 {
+.technical-skills .card h4, .technical-skills .card-pandas h4 {
   font-size: 20px;
   margin-bottom: 10px;
   position: relative;
 }
 
-.technical-skills .card:hover {
+.technical-skills .card:hover, .technical-skills .card-pandas:hover {
   transform: translateY(-15px);
+  
 }
 
 .technical-skills img {
